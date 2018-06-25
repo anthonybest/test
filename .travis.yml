@@ -1,0 +1,12 @@
+language: c
+dist: trusty
+
+compiler:
+        - gcc
+
+os:
+        - linux
+
+script:
+        - bash -x test_ci.sh
+
